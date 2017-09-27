@@ -1,0 +1,3 @@
+cd ./
+react-native start
+

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Documents and Settings\Administrator\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\bolts-tasks-1.4.0_3d70b9711f48bcdd2f5bc0370cc161f4658eb31d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Documents and Settings\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\okhttp-3.4.1_dcf8c8a6cfe57e30966e8f087eb9d199a08a27b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\internal_impl-23.4.0_f8e019b36aa8513895a2e6f01950734007a2e598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-base-8.1.0_9e8c4c9a43a2c7c6f4872929c21a4ffefe247b5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Documents and Settings\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\okio-1.9.0_0d897f30c384b26b925fe6c9351701f68663ec06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\GankIO\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b319ff9834bbeb9be394687614eb86892699ea14">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\GankIO-react-native-vector-icons-unspecified_8561edb051120114825c138c8459975f0599fe58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.facebook.fresco-fbcore-0.11.0_4381fb3c5041b7500d2e29cf745481e4aa805885.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\GankIO\react-native-device-info\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2e4336ffc2b7653868134d7f6f8b28523ef54645">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\GankIO-react-native-device-info-unspecified_1eb9024fee20d1f47a6d89b5af12547468973511.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.42.3\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5_b124bba35090c6f87522ca9f0f12c8e7ffee2f20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Documents and Settings\Administrator\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_055f38157ee08bc9cb726f028952240e07dda3d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.4.0_4648045a06168be336787967b88c9638369e8700.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\GankIO\react-native-smart-barcode\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8e5707e67119e323a1c0858325cb5ee19b65a886">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\GankIO-react-native-smart-barcode-unspecified_3d71d67640c63b3fb855b7f21c71eaba9f441ff3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Documents and Settings\Administrator\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\core-3.2.1_9c7fa38d8957a9219947aeaddd69ee01970ebb91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-gcm-8.1.0_c994fec7197e1076601f307aaa10cb454f98ec93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Documents and Settings\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\okhttp-ws-3.4.1_b5327d006daad60110aa37140b83579813d33109.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.4.0_209980f2c7e7fbcabf1cd70bb0fbd3d640e4f26c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.facebook.soloader-soloader-0.1.0_9fc5c85fc5d0574d0cb3f113af9efe8b1b86d734.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Documents and Settings\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\okhttp-urlconnection-3.4.1_f17bb86e673bd4295ffdb7915a780ff71289d0ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.42.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="962b06c207e808c0557ffd6163ac584025a96021">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.42.3_53846822a022414c541d4394969396bfc2aa2cf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.facebook.fresco-imagepipeline-0.11.0_d3c887c30c30374b6dbd123ccb86920e8a5466cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.facebook.fresco-imagepipeline-okhttp3-0.11.0_98b6d7b6cf50253df797c541c1b41bd238c01099.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-8.1.0_c3c404d04047c08128e2236b27b7c4edd6eb77a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Program Files\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\support-annotations-23.4.0_6dedfbceb3e1bfa29c7931c7b2b5e7a78a5b261e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Documents and Settings\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\jsr305-3.0.0_3f0cb12109c69520df7112b2bf98f5a1be6bcdbd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_ba169c98b171dfd3b17bbd85f30dc254d36fb25b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.facebook.fresco-imagepipeline-base-0.11.0_1275ac9266a6c6308c5fb6662b56bf464ddcd8af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Documents and Settings\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\library-2.4.0_6bbcda4979287084298953931a9b61a5cbbe3034.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.4.0_1be6a1d72fb26f4de30e3f6ba56686f52d912d23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.4.0_919475e2d322209ed615eac15866e2dfa413657c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.facebook.fresco-fresco-0.11.0_54abe87966b48d2473a9a011244d0003940688c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_266f24b9702d8f2afe07209845d61f2caf407d25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\com.facebook.fresco-drawee-0.11.0_030d973e19cc6aab5e24661eee65f4568eb73e60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Documents and Settings\Administrator\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\javax.inject-1_55d9831bc3f1da6652f714177b399636b6c13b3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\react-native\react-native-Gank\android\app\build\intermediates\exploded-aar\GankIO\RCTHttpCache\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d616e0b7cfa0ee05f094253ea445abb435f5c127">
+        <dex dex="D:\react-native\react-native-Gank\android\app\build\intermediates\pre-dexed\release\GankIO-RCTHttpCache-unspecified_bea6fe8752c8b70327bd5dcc2e057c78198c7d61.jar" />
+    </item>
+
+</items>

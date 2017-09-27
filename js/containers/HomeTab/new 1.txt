@@ -1,0 +1,81 @@
+<View
+				style={{
+				marginTop: px2dp(8),
+				backgroundColor: 'white'
+			}}>
+				<View
+					style={{
+					flexDirection: 'row'
+				}}>
+					<HomePageItem
+						title="新手指引"
+						content="三部进阶理财高手"
+						icon={CENTER_IMGS[0]}
+						onPress={() => {
+						this.centerItemAction(0)
+					}}/>
+					<Image
+						source={require('../../imgs/home/ic_home_shu.png')}
+						style={{
+						height: px2dp(80)
+					}}/>
+					<HomePageItem
+						title="平台数据"
+						content="安全可靠数据保障"
+						icon={CENTER_IMGS[1]}
+						onPress={() => {
+						this.centerItemAction(1)
+					}}/>
+				</View>
+				<ShortLine/>
+				<View
+					style={{
+					flexDirection: 'row'
+				}}>
+					<HomePageItem
+						title="团团赚"
+						content="明星产品，分散投资"
+						icon={CENTER_IMGS[2]}
+						onPress={() => {
+						this.centerItemAction(3)
+					}}/>
+					<Image
+						source={require('../../imgs/home/ic_home_shu.png')}
+						style={{
+						height: px2dp(80)
+					}}/>
+					<HomePageItem
+						title="邀请有礼"
+						content="邀请好友送红包"
+						icon={CENTER_IMGS[3]}
+						onPress={() => {
+						this.centerItemAction(2)
+					}}/>
+
+				</View>
+				<ShortLine/>
+				<View
+					style={{
+					flexDirection: 'row'
+				}}>
+					<HomePageItem
+						title="散标"
+						content="信用分级，信息透明"
+						icon={CENTER_IMGS[4]}
+						onPress={() => {
+						this.centerItemAction(2)
+					}}/>
+					<Image
+						source={require('../../imgs/home/ic_home_shu.png')}
+						style={{
+						height: px2dp(80)
+					}}/>
+					<HomePageItem
+						title="敬请期待"
+						content="更多活动敬请期待"
+						icon={CENTER_IMGS[5]}
+						onPress={() => {
+						this.centerItemAction(3)
+					}}/>
+				</View>
+			</View>

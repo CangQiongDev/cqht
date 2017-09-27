@@ -1,0 +1,19 @@
+//var cinfo =  '0' + '##' + 'cWidth' + '##' + 'cHeight' + '##' +
+					//DeviceInfo.getSystemName() + '##' + DeviceInfo.getSystemVersion() + '##' + DeviceInfo.getUniqueID() + '##' + DeviceInfo.getVersion() + '##' + '0' + '##' + DeviceInfo.getManufacturer();
+					//var appkeyJSON = '{"cinfo":'+cinfo+', "user_info":{"username":'+result.data.user_info.username+', "password":'+result.data.user_info.password+'}}';
+					//console.log(DeviceInfo.getSystemName());
+					//dao.saveAppKey(appkeyJSON);
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					//这里要和服务端验证vvcookie  escape(string) --escape() 函数可对字符串进行编码
+		//.set('cinfo', window.devicePixelRatio + '##' + $.vv.cfg.cWidth + '##' + $.vv.cfg.cHeight + '##' +
+		//			device.platform + '##' + device.version + '##' + device.uuid + '##' + $.ckj.cfg.appVersion + '##' + $.os.xwalk + '##' + device.manufacturer);
