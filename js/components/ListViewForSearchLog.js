@@ -69,7 +69,8 @@ class ListViewForSearchLog extends Component{
         return(
             <View style={[styles.rowItem, {backgroundColor: rowItemBackgroundColor}]}>
                 <View style={styles.titlePart}>
-                    <Text style={[styles.title, {color: titleColor}]} numberOfLines={1}>{rowData.desc}</Text>
+					
+                    <Text style={[styles.title, {color: titleColor}]} numberOfLines={1}><Icon name="ios-time-outline" size={px2dp(16)} color="#666"/>   {rowData.desc}</Text>
                 </View>
                 
             </View>
@@ -122,7 +123,7 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     title: {
-
+		fontSize: px2dp(16)
     },
     detailsLabel: {
         marginLeft: px2dp(3),

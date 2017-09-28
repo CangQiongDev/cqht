@@ -1,0 +1,92 @@
+					{/*<ActionSheet
+                ref={o => this.ActionSheet = o}
+                title={title}
+                options={[
+                    '取消',
+                    <Text style={{
+                        color: '#007aff',
+                        fontSize: 18
+                    }}>圣灵版本</Text>,
+                    <Text style={{
+                        color: 'red',
+                        fontSize: 18
+                    }}>怀旧版本</Text>
+                ]}
+                cancelButtonIndex={CANCEL_INDEX}
+                destructiveButtonIndex={DESTRUCTIVE_INDEX}
+                onPress={this._handlePress.bind(this)}
+					/>*/}
+					
+					
+					{/*<ActionSheet
+                ref={o => this.ActionSheet = o}
+                title={title}
+                options={[
+                    '取消',
+                    <Text style={{
+                        color: 'red',
+                        fontSize: 18
+                    }}>圣灵版本</Text>,
+                    <Text style={{
+                        color: '#007aff',
+                        fontSize: 18
+                    }}>怀旧版本</Text>
+                ]}
+                cancelButtonIndex={CANCEL_INDEX}
+                destructiveButtonIndex={DESTRUCTIVE_INDEX}
+                onPress={this._handlePress.bind(this)}
+                />*/}
+				
+				{(this.props.gameDataVersion === 0) ?
+				
+				<Modal
+				  animationType={"fade"}
+				  transparent={true}
+				  visible={this.state.visible}
+				  onRequestClose={() => null}     //修复安卓modal的告警
+				>
+				  <TouchableWithoutFeedback onPress={() => { this.setState({ visible: false }) }}>
+					<View style={styles.modalContainer}>
+					  <View style={styles.modal}>
+						<TouchableOpacity onPress={this._handlePress.bind(this, 1)}>
+						  <View style={styles.rowView}>
+							<Text style={styles.rowText}>圣灵版本</Text>
+						  </View>
+						  <View style={styles.rowLine}></View>
+						</TouchableOpacity>
+						<TouchableOpacity onPress={this._handlePress.bind(this, 2)}>
+						  <View style={styles.rowView}>
+							<Text style={[styles.rowText, {color: '#007aff'}]}>怀旧版本</Text>
+						  </View>
+						</TouchableOpacity>
+					  </View>
+					</View>
+				  </TouchableWithoutFeedback>
+				</Modal>
+                :
+				<Modal
+				  animationType={"fade"}
+				  transparent={true}
+				  visible={this.state.visible}
+				  onRequestClose={() => null}     //修复安卓modal的告警
+				>
+				  <TouchableWithoutFeedback onPress={() => { this.setState({ visible: false }) }}>
+					<View style={styles.modalContainer}>
+					  <View style={styles.modal}>
+						<TouchableOpacity onPress={this._handlePress.bind(this, 1)}>
+						  <View style={styles.rowView}>
+							<Text style={[styles.rowText, {color: '#007aff'}]}>圣灵版本</Text>
+						  </View>
+						  <View style={styles.rowLine}></View>
+						</TouchableOpacity>
+						<TouchableOpacity onPress={this._handlePress.bind(this, 2)}>
+						  <View style={styles.rowView}>
+							<Text style={styles.rowText}>怀旧版本</Text>
+						  </View>
+						</TouchableOpacity>
+					  </View>
+					</View>
+				  </TouchableWithoutFeedback>
+				</Modal>
+                
+            }

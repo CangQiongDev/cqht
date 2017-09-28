@@ -3,7 +3,7 @@
  */
 'use strict';
 import React, { Component, PropTypes } from 'react';
-import { StyleSheet, View, Text, InteractionManager, ScrollView, Switch, TouchableNativeFeedback, TouchableOpacity, Platform, PixelRatio, BackAndroid, Alert } from 'react-native';
+import { StyleSheet, View, Text, Modal, InteractionManager, ScrollView, Switch, TouchableNativeFeedback, TouchableOpacity, Platform, PixelRatio, BackAndroid, Alert, TouchableWithoutFeedback } from 'react-native';
 import BackPageComponent from '../../components/BackPageComponent';
 import NavigationBar from '../../components/NavigationBar';
 import theme from '../../constants/theme';
@@ -27,12 +27,13 @@ const CANCEL_INDEX = 0
 const DESTRUCTIVE_INDEX = 2
 const options = ['取消', '圣灵版本', '怀旧版本']
 const title = '请选择游戏版本'
+const defaultWidth = theme.screenWidth - 90 * 2
 class SettingPage extends BackPageComponent {
     constructor(props) {
         super(props);
-        //this.state = {
-
-        //};
+        this.state = {
+		  visible: false,
+		}
 
     }
 
@@ -126,43 +127,57 @@ class SettingPage extends BackPageComponent {
                 </ScrollView>
                 <Loading ref={'loading'}  text={'退出登录中...'} />
                 {(this.props.gameDataVersion === 0) ?
-                <ActionSheet
-                ref={o => this.ActionSheet = o}
-                title={title}
-                options={[
-                    '取消',
-                    <Text style={{
-                        color: '#007aff',
-                        fontSize: 18
-                    }}>圣灵版本</Text>,
-                    <Text style={{
-                        color: 'red',
-                        fontSize: 18
-                    }}>怀旧版本</Text>
-                ]}
-                cancelButtonIndex={CANCEL_INDEX}
-                destructiveButtonIndex={DESTRUCTIVE_INDEX}
-                onPress={this._handlePress.bind(this)}
-                />
+				
+				<Modal
+				  animationType={"fade"}
+				  transparent={true}
+				  visible={this.state.visible}
+				  onRequestClose={() => null}     //修复安卓modal的告警
+				>
+				  <TouchableWithoutFeedback onPress={() => { this.setState({ visible: false }) }}>
+					<View style={styles.modalContainer}>
+					  <View style={styles.modal}>
+						<TouchableOpacity onPress={this._handlePress.bind(this, 1)}>
+						  <View style={styles.rowView}>
+							<Text style={styles.rowText}>圣灵版本</Text>
+						  </View>
+						  <View style={styles.rowLine}></View>
+						</TouchableOpacity>
+						<TouchableOpacity onPress={this._handlePress.bind(this, 2)}>
+						  <View style={styles.rowView}>
+							<Text style={[styles.rowText, {color: '#007aff'}]}>怀旧版本</Text>
+						  </View>
+						</TouchableOpacity>
+					  </View>
+					</View>
+				  </TouchableWithoutFeedback>
+				</Modal>
                 :
-                <ActionSheet
-                ref={o => this.ActionSheet = o}
-                title={title}
-                options={[
-                    '取消',
-                    <Text style={{
-                        color: 'red',
-                        fontSize: 18
-                    }}>圣灵版本</Text>,
-                    <Text style={{
-                        color: '#007aff',
-                        fontSize: 18
-                    }}>怀旧版本</Text>
-                ]}
-                cancelButtonIndex={CANCEL_INDEX}
-                destructiveButtonIndex={DESTRUCTIVE_INDEX}
-                onPress={this._handlePress.bind(this)}
-                />
+				<Modal
+				  animationType={"fade"}
+				  transparent={true}
+				  visible={this.state.visible}
+				  onRequestClose={() => null}     //修复安卓modal的告警
+				>
+				  <TouchableWithoutFeedback onPress={() => { this.setState({ visible: false }) }}>
+					<View style={styles.modalContainer}>
+					  <View style={styles.modal}>
+						<TouchableOpacity onPress={this._handlePress.bind(this, 1)}>
+						  <View style={styles.rowView}>
+							<Text style={[styles.rowText, {color: '#007aff'}]}>圣灵版本</Text>
+						  </View>
+						  <View style={styles.rowLine}></View>
+						</TouchableOpacity>
+						<TouchableOpacity onPress={this._handlePress.bind(this, 2)}>
+						  <View style={styles.rowView}>
+							<Text style={styles.rowText}>怀旧版本</Text>
+						  </View>
+						</TouchableOpacity>
+					  </View>
+					</View>
+				  </TouchableWithoutFeedback>
+				</Modal>
+                
             }
             </View>
         );
@@ -245,7 +260,8 @@ class SettingPage extends BackPageComponent {
             //});
             break;
         case 4:
-            this.ActionSheet.show();
+            //this.ActionSheet.show();
+			this.setState({ visible: true })
             break;
         }
     }
@@ -273,6 +289,7 @@ class SettingPage extends BackPageComponent {
             store.dispatch(clearServerList());
             break;
         }
+		this.setState({ visible: false })
     }
 
 }
@@ -294,6 +311,31 @@ const styles = StyleSheet.create({
         borderBottomColor: '#c4c4c4',
         borderBottomWidth: 1 / PixelRatio.get()
     },
+	modalContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+
+  modal: {
+    width: defaultWidth,
+    borderRadius: 5,
+    backgroundColor: '#FFF',
+    justifyContent: 'center',
+  },
+  rowView: {
+    padding: 16,
+  },
+
+  rowLine: {
+    height: 1,
+    backgroundColor: '#F0F0F0',
+  },
+
+  rowText: {
+    textAlign: 'center',
+  }
 });
 
 const mapStateToProps = (state) => {

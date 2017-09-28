@@ -1,5 +1,5 @@
 
-keytool -genkey -alias spmkey2 -keypass spmkey2 -keyalg RSA -keysize 1024 -validity 3650 -keystore F:\spmkey2.keystore -storepass spmkey2
+keytool -genkey -alias spmkey3 -keypass spmkey3 -keyalg RSA -keysize 1024 -validity 3650 -keystore F:\spmkey3.keystore -storepass spmkey3
 
 ËµÃ÷£º
 
